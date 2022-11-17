@@ -1,0 +1,5 @@
+com\huahan\answer\commonutils\ResponseUtil.class
+com\huahan\answer\commonutils\MD5.class
+com\huahan\answer\commonutils\JwtUtils.class
+com\huahan\answer\commonutils\R.class
+com\huahan\answer\commonutils\ResultCode.class

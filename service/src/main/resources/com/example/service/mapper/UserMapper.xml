@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.service.mapper.UserMapper">
+
+    <update id="recoverByPhoneNumber" parameterType="String">
+        update answer.user set is_deleted = 0 where phoneNumber = #{phoneNumber}
+    </update>
+
+    <update id="updatePasswordByPhoneNumber" parameterType="String">
+        update answer.user set password = #{password} where phoneNumber = #{phoneNumber}
+    </update>
+
+</mapper>
